@@ -1,0 +1,26 @@
+.box{
+    border: 2px solid red;
+}
+.outer{
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+.upper{
+    height: 10%;
+    margin: auto;
+    font-size: 150%;
+}
+.lower{
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+
+}
+.card{
+
+}
+h1{
+    margin: auto;
+}
